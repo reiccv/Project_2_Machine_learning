@@ -6,6 +6,19 @@ This repository contains a neural network model capable of predicting the number
 for the NBA player Nikola Jokić. By leveraging historical statistical data and advanced machine learning techniques, 
 this model aims to provide insights that can potentially be used to gain an advantage in over/under betting scenarios.
 
+Basketball betting, specifically over/under bets, can be related to fintech in several ways. Fintech, 
+short for financial technology, refers to the use of technology to improve and streamline financial services. 
+Here are a few ways in which basketball betting over/under bets and fintech can intersect:
+
+Fintech encompasses advanced data analytics and machine learning techniques, which are also applicable to basketball betting. 
+Over/under bets involve predicting the total combined score of a basketball game. 
+Fintech tools can analyze historical data, team statistics, player performance, 
+and other relevant factors to generate insights that aid in making informed betting decisions. Machine learning algorithms can identify patterns and trends in basketball data to improve the accuracy of over/under predictions.
+
+Risk management strategies can also be implemented for the betting platform and the bettor. 
+Betting platforms leverage fintech tools to monitor and detect fraudulent activities, 
+ensuring fair play and maintaining the integrity of the betting systems.
+
 ## Table of Contents
 * [Installation Guide](#installation-guide)
 * [Data Collection and Clean up](#data-Collection-and-Clean-up)
@@ -63,9 +76,6 @@ Data Parsing: The extracted data was parsed and converted into a structured form
 This process involved handling missing or incomplete data, converting data types, and resolving any inconsistencies.
 
 
-The DataFrames were then all saved into one CSV making it our ultimate CSV, we used this bit of code to do so:
-`jokic_ultimate.to_csv('jokic_ultimate.csv', index=False)`
-
 The same process was repeated for seasons 2019-2022
 
 ![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/data1.PNG)
@@ -91,6 +101,11 @@ Intergrate data
 ![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/dataint4.PNG)
 
 ![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/dataint5.PNG)
+
+
+The DataFrames were then all saved into one CSV making it our ultimate CSV, we used this bit of code to do so:
+`jokic_ultimate.to_csv('jokic_ultimate.csv', index=False)`
+
 
 
 ## Creating, Compiling, Fitting and running Neural Network model
@@ -124,7 +139,7 @@ Once trained and evaluated, you can use the model to make predictions for new da
 
 ![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/pointsresults1.PNG)
 
-mse: 2.2233
+mse: 0.8541
 
 ## Alternate Model
 
@@ -152,8 +167,20 @@ Once trained and evaluated, you can use the model to make predictions for new da
 
 ![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/assistsresults1.PNG)
 
-mse: 3.9174
+mse: 12.7608
 
+
+## Opposing Teams Predictions
+
+
+
+
+### Eastern Conference
+
+
+
+
+### Western Conference 
 
 ## Conclusion
 
