@@ -25,6 +25,7 @@ ensuring fair play and maintaining the integrity of the betting systems.
 * [Data Intergration](#data-Intergration)
 * [Creating, Compiling, Fitting and running Neural Network model](#creating,-Compiling,-Fitting-and-running-Neural-Network-model)
 * [Alternate Model](#alternate-Model)
+* [Opposing Teams Predictions](#opposing-Teams-Predictions)
 * [Contributors](#contributors)
 
 
@@ -137,7 +138,9 @@ Once trained and evaluated, you can use the model to make predictions for new da
 
 ### Points Prediction Results
 
-![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/pointsresults1.PNG)
+![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/newmse1.PNG)
+
+![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/newresults1.PNG)
 
 mse: 0.8541
 
@@ -161,28 +164,41 @@ Evaluate the model's performance using the testing data:
 
 Once trained and evaluated, you can use the model to make predictions for new data by passing the scaled feature data through the model:
 
-![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/modelA1.PNG)
+![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/newalternatemodel.PNG)
 
 ### Assist Prediction Results
 
-![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/assistsresults1.PNG)
+![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/newresults2.PNG)
 
 mse: 12.7608
 
 
 ## Opposing Teams Predictions
 
+### Opposing data
 
+![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/opposingdata.PNG)
 
+The Opposing team data was then seperated in two dataframes one for Eastern conference teams and the 
+other for Western conference teams
 
 ### Eastern Conference
 
+![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/eastern.PNG)
 
 
 
 ### Western Conference 
 
+![](https://github.com/reiccv/Project_2_Machine_learning/blob/main/images/western.PNG)
+
+
+
 ## Conclusion
+
+There are many  improvements and advancements we can make with our model, which I believe is a very good thing. 
+The dataframes we use now for the predictions are ones that have his career averages against each team separated into conferences. 
+In the future to have an even more accurate prediction. We could have this data replaced by an API that pulls his career game logs against whichever team it is predicting for. 
 
 
 The model's predictions can be interpreted by comparing them with Jokić's actual points per game. 
